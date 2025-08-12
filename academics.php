@@ -124,7 +124,7 @@ $subjectResult = $conn->query($subjectQuery);
             <div></div><div></div><div></div>
         </div>
         <ul class="nav-links" id="navLinks">
-            <li><a href="home.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="academics.php">Academics</a></li>
             <li><a href="admission_upload_form.php">Admissions</a></li>
@@ -217,7 +217,7 @@ $subjectResult = $conn->query($subjectQuery);
 </footer>
 
 <div class="bottom-nav">
-    <a href="home.php"><i class="fas fa-home"></i><br>Home</a>
+    <a href="index.php"><i class="fas fa-home"></i><br>Home</a>
     <a href="academics.php"><i class="fas fa-book"></i><br>Academics</a>
     <a href="admission_upload_form.php"><i class="fas fa-user-plus"></i><br>Admissions</a>
     <a href="public_view_news.php"><i class="fas fa-newspaper"></i><br>News</a>
@@ -254,3 +254,4 @@ window.onclick = function(event) {
 </script>
 </body>
 </html>
+
