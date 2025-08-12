@@ -1,0 +1,95 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark { background: #121212; color: #ddd; }
+
+#preloader {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: #002244; color: white;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 1.2rem; z-index: 9999;
+}
+
+.navbar {
+  position: sticky; top: 0; z-index: 1000;
+  background: #002244; color: white;
+  padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+}
+
+.navbar .logo { font-size: 1.5rem; font-weight: bold; }
+.nav-links { list-style: none; display: flex; gap: 20px; }
+.nav-links a {
+  color: white; text-decoration: none; font-weight: bold;
+}
+.nav-links a:hover { color: orange; }
+
+.hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+.hamburger div { width: 25px; height: 3px; background: white; }
+
+@media(max-width:768px){
+  .nav-links {
+    display: none; flex-direction: column;
+    background: #002244; position: absolute; right: 0; top: 60px;
+    width: 200px; padding: 10px;
+  }
+  .nav-links.show { display: flex; }
+  .hamburger { display: flex; }
+}
+
+.hero {
+  background: url('pubpage.png') center/cover no-repeat;
+  height: 400px; display: flex; justify-content: center; align-items: center;
+  color: white; text-align: center;
+}
+
+.btn {
+  background: orange; color: white; padding: 10px 20px;
+  border-radius: 5px; text-decoration: none; display: inline-block;
+}
+.btn:hover { background: #ff9933; }
+
+.section-wrap {
+  background: #fff; padding: 40px 20px; margin: 20px 0; text-align: center;
+}
+body.dark .section-wrap { background: #1e1e1e; }
+
+.news-item, .testimonial {
+  background: #f1f1f1; padding: 20px; max-width: 300px;
+  border-radius: 10px;
+}
+body.dark .news-item, body.dark .testimonial { background: #2c2c2c; }
+
+.gallery-container img {
+  width: 200px; height: 150px; object-fit: cover; border-radius: 8px;
+}
+
+#topBtn {
+  position: fixed; bottom: 20px; right: 20px; background: orange; color: white;
+  border: none; padding: 10px; border-radius: 50%; display: none;
+}
+
+footer {
+  background: #002244; color: white; text-align: center; padding: 20px;
+}
+
+.bottom-nav {
+  background: #001d3d; padding: 10px;
+  display: flex; justify-content: center; gap: 15px;
+}
+.bottom-nav a { color: white; text-decoration: none; }
+.bottom-nav a:hover { text-decoration: underline; }
+
+/* 404, Terms, Privacy Styles */
+.error-page, .policy-page, .terms-page {
+  display: flex; justify-content: center; align-items: center; height: 100vh;
+}
+.error-container, .policy-container, .terms-container {
+  text-align: center;
+}
