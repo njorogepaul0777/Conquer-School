@@ -109,7 +109,7 @@
       <div></div><div></div><div></div>
     </div>
     <ul class="nav-links" id="navLinks">
-      <li><a href="home.php">Home</a></li>
+      <li><a href="index.php">Home</a></li>
       <li><a href="about.php">About</a></li>
       <li><a href="academics.php">Academics</a></li>
       <li><a href="admission_upload_form.php">Admissions</a></li>
@@ -186,7 +186,7 @@
 
 <!-- Bottom Navigation Bar -->
 <div class="bottom-nav">
-  <a href="home.php">Home</a>
+  <a href="index.php">Home</a>
   <a href="about.php">About</a>
   <a href="academics.php">Academics</a>
   <a href="admission_upload_form.php">Admissions</a>
@@ -210,3 +210,4 @@ function toggleMenu(el) {
 
 </body>
 </html>
+
