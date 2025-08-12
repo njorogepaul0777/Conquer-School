@@ -59,7 +59,7 @@
     <div class="logo">🏫 CONQUER HIGH SCHOOL</div>
     <nav>
         <ul class="nav-links">
-            <li><a href="home.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="academics.php">Academics</a></li>
             <li><a href="admission_upload_form.php">Admissions</a></li>
@@ -72,7 +72,7 @@
 <h1>🎉 Thank You!</h1>
 <p>Your message has been successfully sent. We will get back to you shortly.</p>
 <p>You will be redirected to the Home page in 5 seconds.</p>
-<a href="home.php" class="btn">Return to Home Now</a>
+<a href="index.php" class="btn">Return to Home Now</a>
 
 <script>
 // Dark mode toggle
@@ -83,3 +83,4 @@ function toggleDark() {
 
 </body>
 </html>
+
