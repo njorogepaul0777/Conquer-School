@@ -451,7 +451,7 @@ body.dark .footer a {
     <div class="footer-section">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="home.php">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="admission_upload_form.php">Admissions</a></li>
         <li><a href="academics.php">Academics</a></li>
         <li><a href="faq.php">FAQs</a></li>
@@ -501,7 +501,7 @@ body.dark .footer a {
 
 <!-- BOTTOM NAV -->
 <div class="bottom-nav">
-  <a href="home.php"><i class="fas fa-home"></i>Home</a>
+  <a href="index.php"><i class="fas fa-home"></i>Home</a>
   <a href="about.php"><i class="fas fa-info-circle"></i>About</a>
   <a href="academics.php"><i class="fas fa-book"></i>Academics</a>
   <a href="admission_upload_form.php"><i class="fas fa-user-plus"></i>Admissions</a>
@@ -548,3 +548,4 @@ function scrollTop() {
 </script>
 </body>
 </html>
+
