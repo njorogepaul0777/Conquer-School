@@ -1,0 +1,23 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "school";
+
+$conn = new mysqli($servername, $username, $password , $dbname);
+
+if($conn->connect_error){
+	die("Connection failed: " . $conn->connect_error);
+}
+$username = 'admin';
+$plain_password = 'admin123';
+
+$harshed_password = $plain_password;
+
+$query = "INSERT INTO admins (username, password) VALUES('$username', '$harshed_password')";
+if(mysqli_query($conn, $query)){
+	echo "Admin account created successfully.";
+}else{
+	echo "Error: " . mysqli_error($conn);
+}
+?>
