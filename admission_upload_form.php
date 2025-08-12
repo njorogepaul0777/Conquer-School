@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST'){
 <div class="navbar">
     <div>🏫 Conquer High School</div>
     <div>
-        <a href="home.php">Home</a>
+        <a href="index.php">Home</a>
         <a href="about.php">About</a>
         <a href="academics.php">Academics</a>
         <a href="admission_upload_form.php">Admissions</a>
@@ -184,7 +184,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST'){
 
 <!-- Bottom Navigation -->
 <div class="bottom-nav">
-    <a href="home.php">🏠<br>Home</a>
+    <a href="index.php">🏠<br>Home</a>
     <a href="about.php">📖<br>About</a>
     <a href="academics.php">📚<br>Academics</a>
     <a href="admission_upload_form.php">📝<br>Apply</a>
@@ -241,3 +241,4 @@ function validateForm() {
 </script>
 </body>
 </html>
+
